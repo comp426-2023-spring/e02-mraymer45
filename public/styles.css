@@ -19,11 +19,11 @@ img.shot {
     width: 300px;
 }
 
-.button {
-    background-color: #4CAF50; /* Green */
+button {
+    background-color: #0d00ff; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 7px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
