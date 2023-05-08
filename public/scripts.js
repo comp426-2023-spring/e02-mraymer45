@@ -10,6 +10,7 @@ function onPageLoad() {
     document.getElementById("oppShotImg").style.display = "none"
     document.getElementById("shotImgLab").style.display = "none"
     document.getElementById("oppShotImgLab").style.display = "none"
+    document.getElementById("submitter").style.display = "none"
 }
 
 function toggleShots() {
