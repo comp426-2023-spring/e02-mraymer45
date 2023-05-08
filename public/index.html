@@ -16,17 +16,17 @@
                             <h2>Select Which Game You Would Like To Play</h2>
                             <input type="radio" id="rps" name="gameType" value="rps" checked onclick="toggleShots()">
                             <label for="rps">Rock, Paper, Scissors!</label>
-                            <br/><br/>
+                            <br><br/>
                             <input type="radio" id="rpsls" name="gameType" value="rpsls" onclick="toggleShots()">
                             <label for="rpsls">Rock, Paper, Scissors, Lizard, Spock!</label>
-                            <br/><br/>
+                            <br><br/>
                             <h3>Click Below If You Would Like To Play Against An Opponent</h3>
                             <input type="checkbox" id="opponent" name="opponentSelect" value="opponent" onclick="toggleShots()">
                             <label for="opponent">Play against an opponent?</label>
-                            <br/><br/>
+                            <br><br/>
                             <div id="shots">
                                 <h4>Make Your Choice!</h4>
-                                <input type="radio" id="rock" name="shot" value="rock" class="rpsShot" checked="checked">
+                                <input type="radio" id="rock" name="shot" value="rock" class="rpsShot" checked>
                                 <label class="shot">Rock</label>
                                 <input type="radio" id="paper" name="shot" value="paper" class="rpsShot">
                                 <label class="shot">Paper</label>
@@ -39,24 +39,24 @@
                                     <label id="spockLab" class="rpslsShot">Spock</label>
                                 </div>
                             </div>
-                            <button type="submit" id="submitter"></button>
+                            <button type="submit" id="submitter">Hidden</button>
                         </form>
-                        <br/><br/>
+                        <br><br/>
                         <button type="button" id="play" onclick="playGame()">Play</button>
                         <button type="button" id="startOver" onclick="startOver()">Start Over</button>
                         <button type="button" id="help" onclick="help()">Toggle Help</button>
-                
+
                         <p id="results" class="results">Results</p>
                         <table>
                             <tbody>
                                 <tr>
                                     <td>
                                         <h4 id="shotImgLab">You:</h4>
-                                        <img src="img/rock.jpg" alt="Player Choice" id="shotImg" class="shot"> 
+                                        <img src="img/rock.jpg" alt="Player Choice" id="shotImg" class="shot">
                                     </td>
                                     <td>
                                         <h4 id="oppShotImgLab">Opponent:</h4>
-                                        <img src="img/rock.jpg" alt="Opponent Choice" id="oppShotImg" class="shot"> 
+                                        <img src="img/rock.jpg" alt="Opponent Choice" id="oppShotImg" class="shot">
                                     </td>
                                 </tr>
                             </tbody>
@@ -70,7 +70,7 @@
                                     <li>Paper COVERS Rock</li>
                                     <li>Rock CRUSHES Scissors</li>
                                 </ul>
-                                
+
                                 <h3>Rules for the Lizard-Spock Expansion of Rock Paper Scissors:</h3>
                                 <ul>
                                     <li>Scissors CUTS Paper</li>
@@ -92,7 +92,7 @@
 
     <!-- Your interface markup goes here -->
     <!-- For interface examples, look in the `/examples/` directory in the root of your starter code repo. -->
-    
+
     <!-- You will want to include something hidden by default, like a <div> or <p> that you can show to -->
     <!-- display the results of the game. Your startOver() function should also clear the result and hide -->
     <!-- the block again. -->
